@@ -43,6 +43,7 @@ Explanation:
 Start with left = 0 and right = n-1.
 If the sum is less than the target, increment left to increase the sum.
 If the sum is greater, decrement right to decrease the sum.
+
 2. Same Direction Pointers
 Both pointers start at the same position or close and move in the same direction.
 Useful for problems involving subsequences or subarrays.
@@ -109,6 +110,7 @@ Explanation:
 
 i and j move forward in their respective arrays.
 Compare elements at the current indices and add the smaller one to the merged list.
+
 4. Removing Duplicates (In-place Modifications)
 Often used with same-direction pointers to modify arrays in-place.
 
